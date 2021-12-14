@@ -1,0 +1,30 @@
+package org.base;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class LaunchMavenProject {
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		
+		
+		WebDriverManager.chromedriver().setup();
+		
+		
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/");
+		File f = new File("C:\\Users\\ELCOT\\eclipse-workspace\\LaunchMaven\\Book\\Book1.xlsx");
+		FileInputStream fs = new FileInputStream(f);
+	
+	}
+	
+	
+
+}

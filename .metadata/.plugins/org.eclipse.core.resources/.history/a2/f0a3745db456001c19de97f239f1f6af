@@ -1,0 +1,29 @@
+package org.base;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class Datadriventest {
+	
+	public static  void main(String[] args) throws FileNotFoundException {
+		 File f = new File("C:\\Users\\ELCOT\\eclipse-workspace\\LaunchMaven\\Book");
+		 
+		 FileInputStream fs = new  FileInputStream(f);
+		
+		 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
